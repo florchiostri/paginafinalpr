@@ -1,0 +1,283 @@
+.body{
+   
+    background-color: lightsteelblue;
+    display:grid;
+    grid-template-columns: 1fr;
+}
+
+.navmenu{
+    display:flex;
+    align-content: center;
+    text-align: center;
+    display:grid;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        gap: 5;
+}
+
+.carousel-img .carousel-item{
+    width: fit-content;
+    align-items: center;
+    gap: 5px;
+    margin: 50;
+    display:grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.videoca{
+    display:flex;
+    justify-content: center;
+    padding: 2rem;
+    height: auto;
+}
+
+.fotoca{
+    
+    align-content: center;
+    display:grid;
+}
+
+.inspomain .section{
+    display:grid;
+
+    align-items: center;
+    gap: 5px;
+    padding: 5;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.tablapresentacion{
+    width: fit-content;
+    align-items: center;
+    gap: 5px;
+    margin: 50;
+    display:grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.recomendaciones{
+    display:flex;
+    justify-content: center;
+    gap: 5px;
+    text-align: center;
+}
+
+.logoca{
+    display: flex;
+    width: 65px;
+    padding: 2;
+    margin:2;
+}
+
+.aside{
+    background-color:rgb(228, 198, 240);
+    display:grid;
+    grid-template-columns: auto;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin: 50px;
+}
+.card-text{
+    width: max-content;
+    font-weight: 500;
+}
+
+.footer{
+    background-image: url(picca/fondo\ pic.jpg);
+    justify-content: center;
+
+}
+
+.videoflag{
+    display:flex;
+    justify-content: center;
+    padding: 2rem;
+    height: auto;
+}
+.quienessomos{
+    display: grid;
+    grid-column-start: 1;
+        grid-column-end: 2;
+}
+
+
+@media (min-width:600px){
+    .body{
+
+        grid-template-columns: 2fr 1fr;
+    }
+    .encabezado{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    
+    .logoca{
+        display: flex;
+        width: 65px;
+        padding: 2;
+        margin:2;
+    }
+    .mainindex{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .aside{
+        background-color:rgb(228, 198, 240);
+        display:grid;
+        grid-template-columns: auto;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        width: max-content ;
+        margin: 50px;
+    }
+    .card-text{
+        width: max-content;
+        font-weight: 500;
+    }
+
+    .navmenu{
+        display:flex;
+        align-content: center;
+        display:grid;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        text-align: center;
+    }
+    
+    .videoca{
+        display:flex;
+        justify-content: center;
+        padding: 2rem;
+        height: auto;
+    }
+
+    .quienessomos{
+        background-color: green;
+        color:black;
+        display: grid;
+        text-align: center;
+        justify-content: center;
+        padding: 2rem;
+        font-weight: 500;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    
+    .quienessomos tr {
+        display: flex;
+    }
+    
+    .quienessomos td {
+        display: flex;
+        padding: 1rem;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .quienessomos .labor {
+        text-align: center;
+        width: 75%;
+    }
+
+    .recomendaciones{
+        display:flex;
+        justify-content: center;
+        gap: 5px;
+        text-align: center;
+    }
+    
+    .lossocios{ 
+        font-style: normal;
+        font-weight: 300;
+        display: flex;
+        display: grid;
+        text-align: center;
+        justify-content: center;
+        padding: 2rem;
+        font-weight: 500;
+    
+    }
+    .carousel-img .carousel-item{
+        width: fit-content;
+        align-items: center;
+        gap: 5px;
+        margin: 50;
+        display:grid;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .tablapresentacion{
+        width: fit-content;
+        align-items: center;
+        gap: 5px;
+        margin: 50;
+        display:grid;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .inspomain .section{
+        display:grid;
+
+        align-items: center;
+        gap: 5px;
+        padding: 5;
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    /*TABLA QUIENES SOMOS*/
+.quienessomos{
+    background-color:rgb(228, 198, 240);
+    color:black;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    padding: 2rem;
+    font-weight: 500;
+}
+
+.quienessomos tr {
+    display: flex;
+}
+
+.quienessomos td {
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quienessomos .labor {
+    text-align: center;
+    width: 75%;
+}
+
+.lossocios{ 
+    font-style: normal;
+    font-weight: 300;
+    display: flex;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    padding: 2rem;
+    font-weight: 500;
+
+}
+
+    
+    }
+    .footer{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        background-image: url(picca/fondo\ pic.jpg);
+        justify-content: center;
+    }
+

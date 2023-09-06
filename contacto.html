@@ -11,50 +11,72 @@
 
 
 </head>
+ <!--function de MODOCLIENTE-->
 
-<body>
+<script>
+    function 
+    ConfirmDemo(){
+         mensaje=confirm("¿Ya sos cliente de Comunica Acción?");
+        if (mensaje){
+            alert("Sigamos creando juntos");
+        if (condition) {
+            
+        } else {
+            alert("Bienvenido por primera vez a nuestra empresa")
+            
+        }{
+            alert("Bienvenido al mundo de C.A por primera vez");
+        }
+        }
+        
+    }
+</script>
 
-  <header class="encabezado">
-    <h1>COMUNICA ACCIÓN</h1>
-    <h2>Servicio de Community Manager para emprendedores</h2>
-    <button type="button" class="btn btn-primary" disabled>Suscribirme</button>
+<body class="body">
 
-    <nav class="navmenu">
+    <header class="encabezado">
+        <h1>COMUNICA ACCIÓN</h1>
+        <img class="logoca" src="picca/logo.jpg">
+        <h2>Servicio de Community Manager para emprendedores</h2>
+    
+        <input type="button" onclick="ConfirmDemo();" value="MODO-CLIENTE"/>
 
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">MENÚ</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"><MENU></MENU></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="horariodeatencion.html">HORARIO DE ATENCIÓN</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="horariodeatencion.html">INSPIRACIÓN</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="horariodeatencion.html">CLIENTES</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contacto.html">CONTACTO</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">Social Media</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+        <nav class="navmenu">
 
-       
-    </nav>
-</header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html">MENÚ</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><MENU></MENU></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="horariodeatencion.html">HORARIO DE ATENCIÓN</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="inspiracion.html">INSPIRACIÓN</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="clientes.html">CLIENTES</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">CONTACTO</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Empresa de CM</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+
+           
+        </nav>
+    </header>
 
     <main> 
 
@@ -116,18 +138,20 @@
 
 
 
-<footer>
-  <div class="card">
-    <div class="card-header">
-        Derechos reservados a Florencia Chiostri
-    </div>
-    <div class="card-body">
-      <h5 class="card-title">+INFO</h5>
-      <p class="card-text">Encontra mucha mas informacion en nuestras redes</p>
-      <a href="#" class="btn btn-primary">SEGUIR EN REDES</a>
-    </div>
-  </div>
-</footer>
+    <footer class="footer">
 
-<script src="js.js"> </script>
+      <div class="card">
+          <div class="card-header">
+              Derechos reservados a Florencia Chiostri
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">+INFO</h5>
+            <p class="card-text">Encontra mucha mas informacion en nuestras redes</p>
+            <a href="#" class="btn btn-primary">SEGUIR EN REDES</a>
+          </div>
+        </div>
+  </footer>
+
+  <script src="bootstrap.min.js"> </script>
+  <script src="js.js"> </script>
 </body>

@@ -13,8 +13,17 @@
         grid-column-start: 1;
         grid-column-end: 2;
         gap: 5;
+        font-weight: 800;
+        padding: 5;
+        gap: 5px;
 }
 
+.fotosfeed{
+    gap: 5px;
+    display: flex;
+    padding: 5;
+}
+/*
 .carousel-img .carousel-item{
     width: fit-content;
     align-items: center;
@@ -24,6 +33,7 @@
     grid-column-start: 1;
     grid-column-end: 2;
 }
+*/
 
 .videoca{
     display:flex;
@@ -31,6 +41,7 @@
     padding: 2rem;
     height: auto;
 }
+
 
 .fotoca{
     
@@ -63,6 +74,7 @@
     justify-content: center;
     gap: 5px;
     text-align: center;
+    font-weight: 400;
 }
 
 .logoca{
@@ -70,6 +82,7 @@
     width: 65px;
     padding: 2;
     margin:2;
+    margin-left: 5;
 }
 
 .aside{
@@ -102,7 +115,11 @@
     grid-column-start: 1;
         grid-column-end: 2;
 }
-
+ 
+.encabezado{
+    background-color: rgb(255, 226, 250);
+    
+}
 
 @media (min-width:600px){
     .body{
@@ -124,6 +141,8 @@
         display:grid;
         grid-template-columns: 1fr 1fr;
     }
+
+
     .aside{
         background-color:rgb(228, 198, 240);
         display:grid;
